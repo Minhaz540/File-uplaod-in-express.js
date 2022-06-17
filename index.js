@@ -92,5 +92,3 @@ app.use((err, req, res, next) => {
 app.listen(8080, () => {
 	console.log("Server running at http://localhost:8080");
 });
-
-// Special notes: in production level we don't use uploaded image as locally. Firstly we store them into a file hosting services then fetch it according to out needs
